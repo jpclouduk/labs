@@ -16,8 +16,10 @@ echo \
 sudo apt-get update
 
 # Install docker components
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install -y unzip docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Pull down labs
 mkdir /opt/labs
-curl https://github.com/jpclouduk/labs/raw/main/Ex_Files_Learning_Docker_Upd.zip -o /opt/labs/Ex_Files_Learning_Docker_Upd.zip
+curl https://raw.githubusercontent.com/jpclouduk/labs/main/Ex_Files_Learning_Docker_Upd.zip -
+o /opt/labs/Ex_Files_Learning_Docker_Upd.zip
+
