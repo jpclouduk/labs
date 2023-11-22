@@ -20,5 +20,5 @@ sudo apt-get install -y unzip docker-ce docker-ce-cli containerd.io docker-build
 
 # Pull down labs
 mkdir /opt/labs
-curl https://raw.githubusercontent.com/jpclouduk/labs/main/Ex_Files_Learning_Docker_Upd.zip -o /opt/labs/Ex_Files_Learning_Docker_Upd.zip
-unzip /opt/labs/Ex_Files_Learning_Docker_Upd.zip -d /opt/labs/
+curl https://raw.githubusercontent.com/jpclouduk/labs/main/Ex_Files_Learning_Docker.zip -o /opt/labs/Ex_Files_Learning_Docker.zip
+unzip /opt/labs/Ex_Files_Learning_Docker.zip -d /opt/labs/
